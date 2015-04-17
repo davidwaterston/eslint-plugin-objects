@@ -2,7 +2,7 @@
 
 A small collection of [ESLint](https://www.github.com/eslint/eslint) rules that enforce more strict stylistic conventions for the layout of multi-property objects.
 
-<a href="http://semver.org" target="_blank" alt="Semantic Versioning"><img src="https://img.shields.io/badge/semver-1.0.0-lightgrey.svg?style=flat-square"></a>
+<a href="http://semver.org" target="_blank" alt="Semantic Versioning"><img src="https://img.shields.io/badge/semver-1.1.0-lightgrey.svg?style=flat-square"></a>
 <a href="https://github.com/davidwaterston/eslint-plugin-objects/blob/master/LICENSE" target="_blank" alt="MIT License"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square"></a>
 <a href="#verifying-releases" alt="Releases signed with Gnu Privacy Guard"><img src="https://img.shields.io/badge/gpg-signed-green.svg?style=flat-square"></a>
 <a href="https://travis-ci.org/davidwaterston/eslint-plugin-objects"><img src="http://img.shields.io/travis/davidwaterston/eslint-plugin-objects/master.svg?style=flat-square"></a>
