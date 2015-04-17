@@ -2,15 +2,15 @@
 
 module.exports = {
     rules: {
-        noObjectPropertiesFirstLine: require('./lib/rules/no-object-properties-first-line'),
-        noObjectPropertiesLastLine: require('./lib/rules/no-object-properties-last-line'),
-        noObjectPropertiesOneLine: require('./lib/rules/no-object-properties-one-line'),
-        noObjectPropertySplit: require('./lib/rules/no-object-property-split')
+        'no-object-properties-first-line': require('./lib/rules/no-object-properties-first-line'),
+        'no-object-properties-last-line': require('./lib/rules/no-object-properties-last-line'),
+        'no-object-properties-one-line': require('./lib/rules/no-object-properties-one-line'),
+        'no-object-property-split': require('./lib/rules/no-object-property-split')
     },
     rulesConfig: {
-        noObjectPropertiesFirstLine: 2,
-        noObjectPropertiesLastLine: 2,
-        noObjectPropertiesOneLine: 2,
-        noObjectPropertySplit: 2
+        'no-object-properties-first-line': 2,
+        'no-object-properties-last-line': 2,
+        'no-object-properties-one-line': 2,
+        'no-object-property-split': 2
     }
 };
