@@ -1,10 +1,10 @@
 'use strict';
 
-var linter = require('eslint').linter;
-var ESLintTester = require('eslint-tester');
-var eslintTester = new ESLintTester(linter);
+var RuleTester = require('eslint').RuleTester;
+var eslintTester = new RuleTester({parserOptions: {ecmaVersion: 2015}});  
+var rule = require('../../lib/rules/no-object-property-split');
 
-eslintTester.addRuleTest('./lib/rules/no-object-property-split', {
+eslintTester.run('no-object-property-split', rule, {
     valid: [
         {code: 'var a =\n    {\n        b: 12\n    };'},
         {code: 'var a = {\n    b: 1,\n    c: 2\n};'},

@@ -1,10 +1,10 @@
 'use strict';
 
-var linter = require('eslint').linter;
-var ESLintTester = require('eslint-tester');
-var eslintTester = new ESLintTester(linter);
+var RuleTester = require('eslint').RuleTester;
+var eslintTester = new RuleTester({parserOptions: {ecmaVersion: 2015}});
+var rule = require('../../lib/rules/no-object-properties-last-line');  
 
-eslintTester.addRuleTest('./lib/rules/no-object-properties-last-line', {
+eslintTester.run('no-object-properties-last-line', rule, {
     valid: [
         {code: 'var a = {};'},
         {code: 'var a = {b: 1};'},
